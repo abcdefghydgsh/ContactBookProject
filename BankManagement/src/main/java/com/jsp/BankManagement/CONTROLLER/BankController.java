@@ -21,7 +21,7 @@ public class BankController {
 
 	@Autowired
 	BankDao dao;
-	
+	// this is post mapping
 	@PostMapping
 	public Bank createBank(@RequestBody Bank bank)
 	{
